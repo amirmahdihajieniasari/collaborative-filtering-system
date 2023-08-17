@@ -34,7 +34,7 @@ then it should predict the rates of the other movies in the list base on my beha
 movieList, movieList_df = load_movie_list_pd()
 # initialize my ratings
 my_ratings = np.zeros(num_movies)
-my_ratings[2700] = 5  # for example id 2700 in movies_X represent Toy Story 3 and we rate it '5', and so on
+my_ratings[2700] = 5  # for example id 2700 in movies_X represent Toy Story 3, and we rate it '5'
 my_ratings[2609] = 2  # Persuasion (2007)
 my_ratings[929] = 5  # Lord of the Rings: The Return of the King, The
 my_ratings[246] = 5  # Shrek (2001)
